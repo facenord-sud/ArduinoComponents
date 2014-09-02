@@ -16,6 +16,8 @@ public class ContiniousServo{
     public final static int NULL_SPEED = 93;
     public final static int OPEN_MAX_SPEED = 105;
     public final static int CLOSE_MAX_SPEED = 80;
+    public final static int OPEN_SLOW_SPEED = 86;
+    public final static int CLOSE_SLOW_SPEED = 100;
     
     public int getSpeed() {
         return speed;
